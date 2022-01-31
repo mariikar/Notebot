@@ -158,7 +158,7 @@ module PushNoteBot
       users_notes_file_path(id)
     end
 
-    # Любимая (почти как ты) интеполяция, такая запись будет гораздо понятней чем
+    # Любимая интеполяция, такая запись будет гораздо понятней чем
     #  __FILE__ + "/data/user_" + id.to_s + "_notes.txt"
     # согласись? :)
     def users_notes_file_path(id)
