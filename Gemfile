@@ -2,4 +2,7 @@
 
 source "https://rubygems.org"
 
-gem 'telegram-bot-ruby'
+ruby '2.7.4'
+
+gem 'telegram-bot-ruby', '0.17.0'
+gem 'dotenv', '2.7.6'
